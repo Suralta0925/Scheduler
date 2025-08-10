@@ -3,12 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Suralta0925.github.io/Programming-Practice/React/reactPractice/my-react-app",
+  "homepage": "https://Suralta0925.github.io/Scheduler",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "dev": "vite",
-    "build": "gh-pages -d dist -b gh-pages",
+    "build": "gh-pages -d build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
