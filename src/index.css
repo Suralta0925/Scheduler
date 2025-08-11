@@ -9,3 +9,13 @@ body{
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#FAB{
+    position: fixed;
+    bottom: 170px;
+    right: 50px;
+}
+
+.nav{
+    z-index: 999;
+}
