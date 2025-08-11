@@ -4,6 +4,7 @@ import schedule from "../assets/navIcons/schedule.svg"
 import user from "../assets/navIcons/user.svg"
 
 function navBar(){
+
     return (
         <div id="container">
             <label htmlFor="todo" className="toolTip">
