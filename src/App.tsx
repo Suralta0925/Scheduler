@@ -11,7 +11,8 @@ function App() {
     <>
     <Footer className="nav"/>
     <CardSection/>
-      <FAB id="FAB"/>
+    <FAB id="FAB"/>
+      
     </>
   );
 }

@@ -1,4 +1,4 @@
-button{
+.FABbtn{
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -7,10 +7,4 @@ button{
     font-size: 2em;
     color: rgb(72, 72, 72);
     font-weight: 900;
-    transform: rotate(0deg);
-    transition: .1s transform ease-in-out;
-}
-
-button:active{
-    transform: rotate(45deg);
 }

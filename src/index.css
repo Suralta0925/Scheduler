@@ -2,20 +2,24 @@
     border: 1px solid red;
 } */
 
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    margin: 0;
 }
 
 #FAB{
     position: fixed;
     bottom: 170px;
     right: 50px;
+    z-index: 2;
 }
 
 .nav{
-    z-index: 999;
+    z-index: 1;
 }
