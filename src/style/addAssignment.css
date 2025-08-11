@@ -14,9 +14,10 @@
     
 }
 #tag{
+    position: relative;
     background-color: white;
-    width: clamp(300px, 40vw,500px);
-    height: clamp(400px, 40vw,500px);
+    width: clamp(200px, 40vw,500px);
+    height: clamp(300px, 40vw,500px);
     border: 4px black solid;
     padding: 0 50px;
 }
@@ -25,7 +26,7 @@
     align-items: center;
     margin-bottom: 20px;
     height: 30px;
-    font-size: 18px;
+    font-size: clamp(12px,2vw,18px);
 }
 .sp{
    display: flex;
@@ -38,18 +39,19 @@
 
 .fields{
     position: fixed;
-   left: 45%;
-   width: clamp(200px,20vw,500px);
-   font-size: 18px;
+   left: 47%;
+   width: clamp(100px,15vw,500px);
+   font-size: clamp(12px,2vw,18px);
 }
 
 #submit{
-    position: relative;
+    position: absolute;
     left: 35%;
-    bottom: -20%;
-    width: clamp(100px,10vw, 200px);
-    height: clamp(50px,5vw,60px);
+    bottom: 20px;
+    width: clamp(70px,10vw, 200px);
+    height: clamp(30px,5vw,60px);
     background-color: rgb(0, 255, 0);
     color: rgb(0, 0, 0);
     font-weight: 900;
+    font-size: clamp(10px,2vw,15px);
 }

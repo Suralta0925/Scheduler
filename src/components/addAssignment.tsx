@@ -17,7 +17,7 @@ function AddAssigment(props : React.HTMLAttributes<HTMLDivElement>){
                 <span className="sp">Deadline: </span>
                 <input type="date" name="deadline" className="fields" />
             </label>
-            <button id="submit">Done!</button>
+            <button id="submit">Confirm!</button>
             </div>
 
         </div>

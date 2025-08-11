@@ -4,7 +4,7 @@
  
 
 #container{
-    width: 93vw;
+    width: clamp(90%,50vw,100vw);
     height: 100px;
     display: flex;
     position: fixed;

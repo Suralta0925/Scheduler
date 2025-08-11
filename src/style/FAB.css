@@ -1,10 +1,10 @@
 .FABbtn{
-    height: 70px;
-    width: 70px;
+    height: clamp(50px,10vw,70px);
+    width: clamp(50px,10vw,70px);
     border-radius: 50%;
     border: none;
     background-color: aqua;
-    font-size: 2em;
+    font-size: clamp(1em, 5vw,2em);
     color: rgb(72, 72, 72);
     font-weight: 900;
 }
