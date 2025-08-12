@@ -7,7 +7,9 @@ function Header(){
             <div id="tracker">
                 <h3>Assigments</h3>
                 <p>Keep it up!</p>
-                <div id="progressBar"></div>
+                <div id="progressBar">
+                    <div></div>
+                </div>
             </div>
             <div id="trackerDisplay">
                 <div id="display">1/3</div>
