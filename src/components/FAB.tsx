@@ -12,6 +12,8 @@ function FAB(props : React.HTMLAttributes<HTMLButtonElement>){
             style={{
                 transition: "0.1s transform ease-in-out",
                 transform: rotated ? "rotate(0deg)" : "rotate(45deg)",
+                backgroundColor: rotated ? "aqua" : "red",
+                color: rotated ? "rgb(72, 72, 72)": "white",
                 
             }}>+</button>
             <AddAssigment style={{

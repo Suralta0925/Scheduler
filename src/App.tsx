@@ -1,6 +1,6 @@
-import Footer from "./components/navBar"
-import CardSection from "./sections/cardSection";
+import Navigator from "./components/navBar"
 import FAB from "./components/FAB";
+import CardSection from "./sections/cardSection";
 
 function App() {
 
@@ -9,8 +9,7 @@ function App() {
 
   return(
     <>
-    <Footer className="nav"/>
-    <CardSection/>
+    <Navigator className="nav"/>
     <FAB id="FAB"/>
       
     </>

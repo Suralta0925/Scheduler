@@ -2,6 +2,9 @@
     border: 1px solid red;
 } */
 
+button{
+    cursor: pointer;
+}
 
 body{
     display: flex;

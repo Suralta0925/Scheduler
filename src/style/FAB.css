@@ -2,7 +2,7 @@
     height: clamp(50px,10vw,70px);
     width: clamp(50px,10vw,70px);
     border-radius: 50%;
-    border: none;
+    border: 3px solid rgb(78, 71, 71);
     background-color: aqua;
     font-size: clamp(1em, 5vw,2em);
     color: rgb(72, 72, 72);
