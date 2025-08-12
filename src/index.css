@@ -1,12 +1,11 @@
-/* *{
-    border: 1px solid red;
-} */
-
-button{
-    cursor: pointer;
+*{
+    box-sizing: border-box;
 }
 
+
+
 body{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;

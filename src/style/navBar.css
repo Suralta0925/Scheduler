@@ -4,13 +4,12 @@
  
 
 #container{
-    width: clamp(90%,50vw,100vw);
-    height: clamp(70px,10vw,100px);
+    width: 95%;
+    height: clamp(80px,10vw,100px);
     display: flex;
     position: fixed;
     left: 15px;
     bottom: 0px;
-    padding: 10px;
     border: 5px solid black;
     border-radius: 15px 15px 0 0;
     background-color: white;
@@ -25,7 +24,6 @@
     text-align: center;
     flex:1;
     border-right: 5px solid black;
-    cursor: pointer;
     font-size: clamp(13px,3vw,18px);
 }
 

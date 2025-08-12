@@ -1,0 +1,9 @@
+
+#holder{
+    border: 1px solid red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 95%;
+    padding: 10px;
+}

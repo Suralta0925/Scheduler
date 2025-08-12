@@ -3,7 +3,7 @@ import assigment from "../assets/navIcons/assignment.svg";
 import schedule from "../assets/navIcons/schedule.svg"
 import user from "../assets/navIcons/user.svg"
 
-import cardSection from "../sections/cardSection.tsx"
+import CardSection from "../sections/cardSection.tsx"
 import type { ChangeEvent } from "react";
 
 // To Fix--------------------------------
@@ -13,7 +13,7 @@ function navBar(props : React.HTMLAttributes<HTMLDivElement>){
         if(event.target.checked){
             switch(event.target.value){
             case "todo":
-                return cardSection;
+                return (<CardSection/>);
             case "sched":
                 return null;
             case "acc":
