@@ -1,6 +1,6 @@
 import Navigator from "./components/navBar"
 import FAB from "./components/FAB";
-import CardSection from "./sections/cardSection";
+import Body from "./components/Body";
 import Header from "./components/Header";
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
   return(
     <>
     <Header/>
+    <Body/>
     <Navigator className="nav"/>
     <FAB id="FAB"/>
       

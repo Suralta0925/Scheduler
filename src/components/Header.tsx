@@ -12,7 +12,7 @@ function Header(){
                 </div>
             </div>
             <div id="trackerDisplay">
-                <div id="display">1/3</div>
+                <div id="display">4/7</div>
             </div>
         </div>
     );
