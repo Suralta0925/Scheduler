@@ -1,17 +1,61 @@
-*{
-    
-}
-
 #cardContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: fixed;
-    top: 250px;
-    left:25px;
+    position: absolute;
+    top: clamp(25%,4vw,50%);
     border: 4px solid black;
     padding: 10px;
     overflow-y:scroll ;
     height: 60vh;
-    width: clamp(300px,90vw,1000px);
+    width: 90%;
+}
+
+#selection{
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    top: clamp(22%,4vw,50%);
+   
+    color: white;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+#selection > span{
+    font-size: clamp(12px, 1.5vw,18px);
+    border-radius: 10px 10px 0 0;
+    padding: 10px 0;
+    border: 3px solid black;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+#selection > span:nth-child(1){
+    background-color: aqua;
+    color: black;
+}
+#selection > span:nth-child(2){
+    background-color: yellow;
+    color: black;
+}
+
+#selection > span:nth-child(3){
+    background-color: lime;
+    color: black;
+}
+
+
+
+#selection >span:hover{
+
+    height: 10px;
+}
+
+#selection >span:active{
+    
 }
