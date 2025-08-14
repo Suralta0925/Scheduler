@@ -19,8 +19,8 @@ function Body() {
       ? {
             position:"relative",
             bottom: "clamp(5%,1vh,20%)",
-            height: "35px",
-            fontSize: "clamp(13px, 1.5vh,18px)",
+            height: "clamp(25px,3vw,35px)",
+            fontSize: "clamp(12px, 1.5vh,18px)",
             border: "3px solid red",
         }
       : {};

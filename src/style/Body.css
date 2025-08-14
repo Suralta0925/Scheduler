@@ -13,7 +13,7 @@
 
 #selection{
     width: 90%;
-    height: 30px;
+    height: clamp(20px,3vw,30px);
     position: absolute;
     top: clamp(22%,4vw,50%);
    
@@ -25,7 +25,7 @@
 }
 
 #selection > span{
-    font-size: clamp(12px, 1.5vw,18px);
+    font-size: clamp(10px, 1.5vw,18px);
     border-radius: 10px 10px 0 0;
     padding: 10px 0;
     border: 3px solid black;
