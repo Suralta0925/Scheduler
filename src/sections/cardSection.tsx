@@ -1,6 +1,6 @@
 import Card from "../components/Card";
 
-function CardSection(){
+function CardSection(props){
     const cards = [
     {
       status:"ongoing",
@@ -45,8 +45,7 @@ function CardSection(){
       assignment: "Research: About the fundemental of computers",
       deadline: "August 22, 2025"
     },]
-
-    return(<Card items={cards}/>)
+    return(<Card items={cards.filter((card) => card.status=== String(props.status).toLowerCase())}/>)
 }
 
 export default CardSection;

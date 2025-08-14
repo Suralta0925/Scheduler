@@ -5,7 +5,7 @@ import { useState } from "react";
 
 function Body() {
   // store which span is active
-  const [activeTab, setActiveTab] = useState<string>("Assignments");
+  const [activeTab, setActiveTab] = useState<string>("Notice");
 
   // click handler
   const handleClick = (tabName: string) => {
@@ -14,6 +14,7 @@ function Body() {
 
   // helper to check if tab is active
   const getTabStyle = (tabName: string) => {
+
     return tabName === activeTab
       ? {
             position:"relative",
@@ -32,8 +33,8 @@ function Body() {
       <div id="selection">
         <span
           id="Assignments"
-          style={getTabStyle("Assignments")}
-          onClick={() => handleClick("Assignments")}
+          style={getTabStyle("Notice")}
+          onClick={() => handleClick("Notice")}
         >
           ASSIGNMENTS
         </span>
@@ -53,7 +54,7 @@ function Body() {
         </span>
       </div>
       <div id="cardContainer">
-        <CardSection />
+        <CardSection status={activeTab}/>
       </div>
     </>
   );
