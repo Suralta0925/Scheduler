@@ -1,4 +1,5 @@
 import CardSection from "../sections/cardSection";
+import Header from "./Header";
 import "../style/Body.css";
 import { useState } from "react";
 
@@ -16,14 +17,17 @@ function Body() {
     return tabName === activeTab
       ? {
             position:"relative",
-            bottom: "clamp(5%,1vw,50%)",
+            bottom: "clamp(5%,1vh,20%)",
             height: "35px",
+            fontSize: "clamp(13px, 1.5vh,18px)",
+            border: "3px solid red",
         }
       : {};
   };
 
   return (
     <>
+      <Header/>
       <div id="BodyContainer"></div>
       <div id="selection">
         <span

@@ -48,14 +48,3 @@
     background-color: lime;
     color: black;
 }
-
-
-
-#selection >span:hover{
-
-    height: 10px;
-}
-
-#selection >span:active{
-    
-}
