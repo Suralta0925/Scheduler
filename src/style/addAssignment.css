@@ -22,18 +22,6 @@
     padding: 0 50px;
 }
 
-@media (min-width: 1200px){
-    #tag{
-        width: 40%;
-    }
-    button{
-    cursor: pointer;
-    }
-    .toolTip{
-        cursor: pointer;
-    }
-}
-
 .label{
     display: flex;
     align-items: center;

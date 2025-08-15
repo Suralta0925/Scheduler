@@ -16,7 +16,6 @@
     height: clamp(20px,3vw,30px);
     position: absolute;
     top: clamp(22%,4vw,50%);
-   
     color: white;
     font-weight: 900;
     display: flex;

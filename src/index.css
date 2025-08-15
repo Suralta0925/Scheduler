@@ -31,3 +31,17 @@ body{
 .nav{
     z-index: 1;
 }
+
+@media (min-width: 1200px){
+    #tag{
+        width: 40%;
+    }
+    button,
+    #selection > span{
+    cursor: pointer;
+    }
+    .toolTip{
+        cursor: pointer;
+    }
+    
+}
