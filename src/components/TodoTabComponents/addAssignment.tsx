@@ -1,6 +1,6 @@
 import { useState } from "react"
-import "../style/addAssignment.css"
-import { cards } from "../Data/cardData"
+import "../../style/TodoTabStyles/addAssignment.css"
+import { cards } from "../../Data/cardData"
 
 
 function AddAssigment(props : React.HTMLAttributes<HTMLDivElement>){

@@ -1,6 +1,6 @@
-import CardSection from "../sections/cardSection";
+import CardSection from "../../sections/cardSection";
 import Header from "./Header";
-import "../style/Body.css";
+import "../../style/TodoTabStyles/Body.css";
 import { useState } from "react";
 
 function Body() {

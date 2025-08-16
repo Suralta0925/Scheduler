@@ -1,12 +1,12 @@
-import finished from "../assets/statusIcon/finished.svg"
-import ongoing from "../assets/statusIcon/ongoing.svg"
-import notice from "../assets/statusIcon/notImportant.svg"
-import important from "../assets/statusIcon/important.svg"
-import urgent from "../assets/statusIcon/urgent.svg"
+import finished from "../../assets/statusIcon/finished.svg"
+import ongoing from "../../assets/statusIcon/ongoing.svg"
+import notice from "../../assets/statusIcon/notImportant.svg"
+import important from "../../assets/statusIcon/important.svg"
+import urgent from "../../assets/statusIcon/urgent.svg"
 
 // import PropTypes from 'prop-types';
 
-import "../style/card.css"
+import "../../style/TodoTabStyles/card.css"
 
 type CardItem = {
     status?: string;
@@ -60,20 +60,6 @@ function Card({items = []}: CardProps){
     );
 }
 
-// Card.propTypes = {
-//     items: PropTypes.arrayOf(
-//         PropTypes.shape({
-//             status : PropTypes.string,
-//             subject: PropTypes.string,
-//             assignment: PropTypes.string,
-//             deadline: PropTypes.string,
-//         })
-//     ),
-// }
 
-// Card.defaultProps = {
-//     status : "",
-//     items : [],
-// }
 
 export default Card;

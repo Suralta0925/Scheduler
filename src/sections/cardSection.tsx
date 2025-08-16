@@ -1,4 +1,4 @@
-import Card from "../components/Card";
+import Card from "../components/TodoTabComponents/Card";
 import { cards } from "../Data/cardData";
 
 function CardSection(props){

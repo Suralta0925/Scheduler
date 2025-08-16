@@ -27,7 +27,6 @@ function NavBar(props: NavBarProps) {
           name="icons"
           onChange={onActive}
           value="todo"
-          defaultChecked
         />
         <img src={assignment} alt="assignment" className="ico" />
         <span>TODO</span>
@@ -41,6 +40,7 @@ function NavBar(props: NavBarProps) {
           name="icons"
           onChange={onActive}
           value="sched"
+          defaultChecked
         />
         <img src={schedule} alt="schedule" className="ico" />
         <span>SCHEDULE</span>
