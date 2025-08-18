@@ -74,7 +74,7 @@ export const schedules = [
             {day:"friday",start:"5:30 PM",end:"7:00 PM"}
         ],
         subject: "Accounting Principle",
-        room: "TBA",
+        room: "COMLAB1A",
         instructor: "Mr./Ms, A. Dagalea"
     },
 

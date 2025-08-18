@@ -11,6 +11,7 @@ function Schedule(){
         const offset = Number(e.target.value);
         const newDay = days[(now.getDay() + offset) % 7];
         setToday(newDay);
+
     }
     return(
         <>
@@ -24,27 +25,27 @@ function Schedule(){
                     </label>
                     <label htmlFor="day2">
                         <input type="radio" name="day" id="day2" onChange={handleChange} value={1}/>
-                        {initialDays[now.getDay()+1]}
+                        {initialDays[(now.getDay()+1)%7]}
                     </label>
                     <label htmlFor="day3">
                         <input type="radio" name="day" id="day3" onChange={handleChange} value={2}/>
-                        {initialDays[now.getDay()+2]}
+                        {initialDays[(now.getDay()+2)%7]}
                     </label>
                     <label htmlFor="day4">
                         <input type="radio" name="day" id="day4" onChange={handleChange} value={3}/>
-                        {initialDays[now.getDay()+3]}
+                        {initialDays[(now.getDay()+3)%7]}
                     </label>
                     <label htmlFor="day5">
                         <input type="radio" name="day" id="day5" onChange={handleChange} value={4}/>
-                        {initialDays[now.getDay()+4]}
+                        {initialDays[(now.getDay()+4)%7]}
                     </label>
                     <label htmlFor="day6">
                         <input type="radio" name="day" id="day6" onChange={handleChange} value={5}/>
-                        {initialDays[now.getDay()+5]}
+                        {initialDays[(now.getDay()+5)%7]}
                     </label>
                     <label htmlFor="day7">
                         <input type="radio" name="day" id="day7" onChange={handleChange} value={6}/>
-                        {initialDays[now.getDay()+6]}
+                        {initialDays[(now.getDay()+6)%7]}
                     </label>
                 </div>
 
